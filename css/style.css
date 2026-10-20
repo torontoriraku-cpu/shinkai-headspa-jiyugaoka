@@ -945,9 +945,8 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 
   .access__info > div { grid-template-columns: 88px 1fr; }
   .space { margin-top: 56px; }
-  .space__grid { grid-template-columns: 1fr 1fr; gap: 10px; }
-  .space__item:last-child { grid-column: 1 / -1; }
-  .space__item figcaption { padding: 18px 10px 8px; font-size: .75rem; }
+  .space__grid { grid-template-columns: 1fr; gap: 12px; }
+  .space__item figcaption { padding: 20px 14px 10px; font-size: .8125rem; }
   .access__photos { grid-template-columns: 1fr; gap: 16px; }
   .worry-list { grid-template-columns: 1fr; gap: 10px; }
   .worry-list li { padding: 14px 18px; font-size: 1rem; }
