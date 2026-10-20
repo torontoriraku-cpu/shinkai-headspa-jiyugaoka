@@ -39,7 +39,7 @@
 
   // フェードイン
   const fadeTargets = document.querySelectorAll(
-    '.sec-head, .exp-card, .benefit-item, .menu-card, .campaign__box, .concept .container > *, .access__grid'
+    '.sec-head, .exp-card, .benefit-item, .cause-item, .point-item, .worry-list li, .flow-step, .campaign__box, .concept .container > *, .access__grid'
   );
   const io = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
