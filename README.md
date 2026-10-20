@@ -9,8 +9,9 @@ HODOKU リンパケアサロン「深海のヘッドスパ」LP。
 ```
 index.html      ページ本体
 css/style.css   スタイル
-js/main.js      ハンバーガーメニュー、固定予約バー、フェードイン、泡アニメーション
-images/fv.webp  メインビジュアル
+js/main.js      ハンバーガーメニュー、固定予約バー、フェードイン、動画の自動再生、泡アニメーション
+images/         写真(WebP)
+videos/         店内動画(WebM + MP4。Safari は MP4 を再生)
 ```
 
 ビルド不要の静的サイトです。`index.html` をブラウザで開けば確認できます。

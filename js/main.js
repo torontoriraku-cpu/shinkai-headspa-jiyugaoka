@@ -54,8 +54,24 @@
     io.observe(el);
   });
 
-  // 泡のアニメーション
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // 動画は画面内にあるときだけ再生
+  document.querySelectorAll('.js-movie').forEach((video) => {
+    if (reduceMotion) {
+      video.controls = true;
+      return;
+    }
+    new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        video.play().catch(() => { video.controls = true; });
+      } else {
+        video.pause();
+      }
+    }, { threshold: 0.25 }).observe(video);
+  });
+
+  // 泡のアニメーション
   const bubbleArea = document.querySelector('.fv__bubbles');
   if (!reduceMotion && bubbleArea) {
     for (let i = 0; i < 18; i++) {

@@ -451,14 +451,29 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
 .concept__title {
   margin-top: 16px;
   font-family: var(--mincho);
-  font-size: clamp(1.5rem, 3.6vw, 2.5rem);
+  font-size: clamp(1.5rem, 3vw, 2.25rem);
   font-weight: 700;
   line-height: 1.7;
   color: var(--white);
   text-shadow: 0 2px 16px rgba(0, 0, 0, .5);
   letter-spacing: .06em;
 }
+.concept__inner {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  align-items: center;
+  gap: 56px;
+  max-width: 960px;
+}
 .concept .sec-en { color: var(--gold-300); }
+.concept__movie video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  box-shadow: 0 0 0 1px rgba(216, 180, 106, .55), 0 24px 60px rgba(0, 0, 0, .5);
+  background: var(--navy-900);
+}
 .concept__title em { font-style: normal; font-size: 1.3em; color: var(--gold-300); }
 .concept__text {
   margin-top: 36px;
@@ -910,6 +925,8 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   .fv__offer { justify-content: center; }
 
   .exp-list { grid-template-columns: 1fr; max-width: 520px; margin: 0 auto; }
+  .concept__inner { grid-template-columns: 1fr; gap: 40px; }
+  .concept__movie { width: min(280px, 72%); margin: 0 auto; }
   .cause-list { grid-template-columns: 1fr; max-width: 560px; margin-left: auto; margin-right: auto; }
   .point-list { grid-template-columns: 1fr; max-width: 520px; margin: 0 auto; row-gap: 48px; }
   .benefit-list { grid-template-columns: repeat(3, 1fr); row-gap: 40px; }
