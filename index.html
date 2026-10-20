@@ -71,12 +71,23 @@
       <a href="#concept" class="fv__scroll" aria-label="下へスクロール">SCROLL</a>
     </section>
 
-    <!-- ===== NEWS ===== -->
-    <section class="news section--narrow" id="news">
-      <h2 class="news__title">NEWS</h2>
-      <div class="todo">
-        <p class="todo__label">要確認</p>
-        <p>お知らせ欄を掲載するか、掲載する場合は内容(日付・見出し)をご提供ください。</p>
+    <!-- ===== WORRY (お悩み) ===== -->
+    <section class="worry section" id="worry">
+      <div class="container">
+        <div class="sec-head">
+          <p class="sec-en">WORRY</p>
+          <h2 class="sec-title">こんなお悩みありませんか？</h2>
+        </div>
+        <ul class="worry-list">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg><span>頭が重い・スッキリしない</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg><span>目の疲れが気になる</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg><span>首・肩こりが辛い</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg><span>ストレスが溜まっている</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg><span>眠りが浅い</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg><span>リラックスしたい</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7.5 12.5l3 3 6-6.5"/></svg><span>薄毛・抜け毛で悩んでいる</span></li>
+        </ul>
+        <span class="worry__arrow" aria-hidden="true"></span>
       </div>
     </section>
 
@@ -192,7 +203,7 @@
           <p class="sec-en">MENU</p>
           <h2 class="sec-title">メニュー</h2>
         </div>
-        <div class="menu-list">
+        <div class="menu-list menu-list--single">
           <article class="menu-card">
             <p class="menu-card__tag">おすすめ</p>
             <h3 class="menu-card__title">深海のヘッドスパ</h3>
@@ -204,26 +215,6 @@
             </dl>
             <a href="#campaign" class="btn btn--line">初回体験価格を見る</a>
           </article>
-          <article class="menu-card menu-card--todo">
-            <div class="todo">
-              <p class="todo__label">要確認</p>
-              <p>深海のヘッドスパ以外のメニュー(リンパケア、延長、セットメニューなど)を掲載する場合は、メニュー名・所要時間・価格・説明文をご提供ください。</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===== RECOMMEND (INDUSTRY) ===== -->
-    <section class="recommend section" id="recommend">
-      <div class="container">
-        <div class="sec-head">
-          <p class="sec-en">RECOMMEND</p>
-          <h2 class="sec-title">こんな方におすすめ</h2>
-        </div>
-        <div class="todo">
-          <p class="todo__label">要確認</p>
-          <p>想定しているお客様像(例:デスクワークの方、寝つきが悪い方 など)を5つ前後ご提供ください。</p>
         </div>
       </div>
     </section>
@@ -237,7 +228,7 @@
         </div>
         <div class="todo">
           <p class="todo__label">要確認</p>
-          <p>掲載するお客様の声(見出し・本文・年代/性別など)をご提供ください。ホットペッパーの口コミを転載する場合は、転載可否もご確認ください。</p>
+          <p>Googleの口コミは、投稿者の方に掲載の了承をいただいたものから掲載予定です。口コミ本文(見出し・本文・年代/性別など)をご提供ください。</p>
         </div>
       </div>
     </section>
@@ -276,10 +267,33 @@
           <p class="sec-en">FLOW</p>
           <h2 class="sec-title">ご来店の流れ</h2>
         </div>
-        <div class="todo">
-          <p class="todo__label">要確認</p>
-          <p>ご予約から施術後までの流れ(例:予約 → 来店・カウンセリング → 施術 → アフタートーク)を、実際の手順でご提供ください。</p>
-        </div>
+        <ol class="flow-list">
+          <li class="flow-step">
+            <span class="flow-step__num">STEP<b>01</b></span>
+            <h3 class="flow-step__title">ご予約</h3>
+            <p class="flow-step__text">ホットペッパービューティーまたはお電話でご予約ください。ホットペッパービューティーからは24時間ご予約いただけます。</p>
+          </li>
+          <li class="flow-step">
+            <span class="flow-step__num">STEP<b>02</b></span>
+            <h3 class="flow-step__title">ご来店</h3>
+            <p class="flow-step__text">自由が丘駅から徒歩10分、セレナヴィータ自由が丘 3F Axe.内にございます。ご予約時間の5分前を目安にお越しください。</p>
+          </li>
+          <li class="flow-step">
+            <span class="flow-step__num">STEP<b>03</b></span>
+            <h3 class="flow-step__title">カウンセリング</h3>
+            <p class="flow-step__text">お疲れの箇所や体調、力加減のご希望などをお伺いし、その日のお客様に合わせた施術をご提案します。</p>
+          </li>
+          <li class="flow-step">
+            <span class="flow-step__num">STEP<b>04</b></span>
+            <h3 class="flow-step__title">施術</h3>
+            <p class="flow-step__text">たゆたう海の水面を眺めながら、海の香りのアロマに包まれて。深海のヘッドスパで、頭から深くゆるめていきます。</p>
+          </li>
+          <li class="flow-step">
+            <span class="flow-step__num">STEP<b>05</b></span>
+            <h3 class="flow-step__title">アフターケア</h3>
+            <p class="flow-step__text">施術後の状態をお伝えし、ご自宅でのケアのアドバイスをいたします。お支払いは現金・クレジットカード・PayPayに対応しています。</p>
+          </li>
+        </ol>
       </div>
     </section>
 
@@ -290,9 +304,47 @@
           <p class="sec-en">FAQ</p>
           <h2 class="sec-title">よくあるご質問</h2>
         </div>
-        <div class="todo">
-          <p class="todo__label">要確認</p>
-          <p>よくあるご質問と回答をご提供ください(例:メイクは崩れるか、男性も利用できるか、支払い方法、キャンセル規定 など)。</p>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary class="faq-item__q"><span class="faq-item__mark">Q</span>初めてでも大丈夫ですか？</summary>
+            <div class="faq-item__a"><span class="faq-item__mark">A</span><p>はい、もちろんです。施術前のカウンセリングで、お悩みや力加減のご希望をお伺いしてから施術いたします。初めての方には、深海のヘッドスパ(60分)を8,800円(税込)でお試しいただける初回体験キャンペーンをご用意しています。</p></div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-item__q"><span class="faq-item__mark">Q</span>メイクをしたままでも受けられますか？</summary>
+            <div class="faq-item__a"><span class="faq-item__mark">A</span><p>はい、メイクをしたままで受けていただけます。お顔まわりにも触れるため、崩れが気になる方は時間に余裕をもってお越しください。 <span class="todo-inline">要確認</span></p></div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-item__q"><span class="faq-item__mark">Q</span>服装に決まりはありますか？</summary>
+            <div class="faq-item__a"><span class="faq-item__mark">A</span><p>普段のお洋服のままで大丈夫です。首まわりがゆったりとしたお洋服がおすすめです。フード付きやタートルネックのお洋服は、施術の妨げになる場合があります。 <span class="todo-inline">要確認</span></p></div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-item__q"><span class="faq-item__mark">Q</span>男性も利用できますか？</summary>
+            <div class="faq-item__a"><span class="faq-item__mark">A</span><p>はい、男性のお客様にもご利用いただけます。 <span class="todo-inline">要確認</span></p></div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-item__q"><span class="faq-item__mark">Q</span>施術中に眠ってしまっても大丈夫ですか？</summary>
+            <div class="faq-item__a"><span class="faq-item__mark">A</span><p>はい、どうぞそのままお休みください。</p></div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-item__q"><span class="faq-item__mark">Q</span>力加減は調整できますか？</summary>
+            <div class="faq-item__a"><span class="faq-item__mark">A</span><p>はい、施術前・施術中どちらでもお気軽にお申し付けください。</p></div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-item__q"><span class="faq-item__mark">Q</span>当日予約はできますか？</summary>
+            <div class="faq-item__a"><span class="faq-item__mark">A</span><p>空きがあればご予約いただけます。ホットペッパービューティーの空き状況、またはお電話(070-8381-7299)でご確認ください。</p></div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-item__q"><span class="faq-item__mark">Q</span>予約の変更・キャンセルはできますか？</summary>
+            <div class="faq-item__a"><span class="faq-item__mark">A</span><p>ご予約の変更・キャンセルは、お早めにお電話またはホットペッパービューティーからご連絡ください。 <span class="todo-inline">要確認</span></p></div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-item__q"><span class="faq-item__mark">Q</span>支払い方法を教えてください。</summary>
+            <div class="faq-item__a"><span class="faq-item__mark">A</span><p>現金・クレジットカード・PayPayをご利用いただけます。</p></div>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-item__q"><span class="faq-item__mark">Q</span>妊娠中や体調がすぐれないときでも受けられますか？</summary>
+            <div class="faq-item__a"><span class="faq-item__mark">A</span><p>妊娠中の方、持病のある方、体調がすぐれない方は、ご予約時に事前にご相談ください。</p></div>
+          </details>
         </div>
       </div>
     </section>
