@@ -16,6 +16,9 @@ videos/         店内動画(WebM + MP4。Safari は MP4 を再生)
 
 ビルド不要の静的サイトです。`index.html` をブラウザで開けば確認できます。
 
-## 未確定の項目
+## 公開
 
-情報が未提供の箇所は、オレンジの点線枠「要確認」(`.todo` / `.todo-inline`)で表示しています。内容が揃い次第差し替えます。
+GitHub Pages(`main` ブランチ / root)で公開します。
+https://torontoriraku-cpu.github.io/shinkai-headspa-jiyugaoka/
+
+URL を変える場合は、`index.html` の `og:url`・`og:image`・`canonical` も合わせて変更してください。
