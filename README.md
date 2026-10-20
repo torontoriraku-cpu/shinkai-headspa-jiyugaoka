@@ -1,6 +1,6 @@
 # shinkai-headspa-jiyugaoka
 
-HODOKU リンパケアサロン「深海のヘッドスパ」LP。
+「深海のヘッドスパ HODOKU自由が丘店」のLP。
 
 構成は [JCS Finance](https://www.jcs-finance.co.jp/) のLP(FV → NEWS → RESULTS → REASON → SERVICE → INDUSTRY → VOICE → DETAIL → FLOW → FAQ → CONTACT → フッター)をベースにしています。
 
