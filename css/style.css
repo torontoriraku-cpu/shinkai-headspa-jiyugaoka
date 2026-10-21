@@ -195,7 +195,7 @@ h1, h2, h3, p, dl, dd, figure { margin: 0; }
   border-radius: 20px;
   box-shadow: 0 30px 60px rgba(0, 0, 0, .45), 0 0 0 1px rgba(216, 180, 106, .35);
 }
-.fv__brand { font-family: var(--mincho); font-size: 1.125rem; letter-spacing: .2em; color: var(--gold-300); }
+.fv__brand { font-family: var(--mincho); font-weight: 500; font-size: 1.125rem; letter-spacing: .2em; color: var(--gold-300); }
 .fv__catch {
   margin-top: 8px;
   font-family: var(--mincho);
